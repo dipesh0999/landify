@@ -653,7 +653,7 @@ line-height: 24px;
         width: 100%;
     }
     .ft-nav-menu{
-        gap: 20px;
+        gap: 10px;
     }    
     .ft-cotain{
         flex-direction: column;
