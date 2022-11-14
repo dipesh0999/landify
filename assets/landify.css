@@ -652,6 +652,9 @@ line-height: 24px;
     .footer-contain{
         width: 100%;
     }
+    .ft-nav-menu{
+        gap: 20px;
+    }    
     .ft-cotain{
         flex-direction: column;
         align-items: flex-start;
