@@ -413,9 +413,11 @@ line-height: 24px;
     margin-bottom: 20px;
 }
 .ft-nav-menu{
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
     gap: 30px;
     margin-bottom: 20px;
 }
@@ -636,8 +638,12 @@ line-height: 24px;
     .app-text{
         width: 100%;
     }
+    .store-img-2{
+        width: 100%;
+    }
     .app-title{
         font-size: 46px;
+        width: 100%;
     }
     .footer{
         height: 100%;
