@@ -660,10 +660,11 @@ line-height: 24px;
     }
     .footer-contain{
         width: 100%;
-        padding: 0px 20px;
+        padding: 0px;
     }
     .ft-nav-menu{
-        gap: 10px;
+        gap: 25px;
+        justify-content: flex-start;
     }    
     .ft-cotain{
         flex-direction: column;
