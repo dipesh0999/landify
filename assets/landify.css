@@ -400,12 +400,14 @@ line-height: 24px;
     height: 288px;
 }
 .footer-contain{
-    width: 1200px;
+    width: 1440px;
     margin-left: auto;
     margin-right: auto;
+    padding: 0px 100px;
     height: 100%;
 }
 .ft-cotain{
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
