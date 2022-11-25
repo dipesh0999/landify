@@ -107,10 +107,11 @@ a{
     color: white;
 }
 .contain-bttn{
-    width: 150px;
+    width: 138px;
+    height: 56px;
     text-align: center;
     background-color: #7C3AED;
-    padding: 20px;
+    padding: 16px 24px;
     border-radius: 10px;
 }
 #partners{
