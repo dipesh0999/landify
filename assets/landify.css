@@ -4,9 +4,6 @@
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
 }
-html{
-    width: 1519px;
-}
 .hero{
     width: 1519px;
     position: relative;
