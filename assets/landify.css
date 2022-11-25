@@ -559,13 +559,20 @@ line-height: 24px;
     }
     .review-text{
         width: 100%;
-        margin-top: -55px;
+        margin-top: -39px;
         margin-bottom: 100px;
         padding-left: 10px;
     }
     .review-title{
         width: 100%;
-        font-size: 37px;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .review-para{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
     }
     .review-logo{
         display: none;
@@ -605,10 +612,26 @@ line-height: 24px;
     .user-text{
         width: 100%;
     }
+    .user-title{
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .user-para{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+    }
     .user-flex{
         width: 100%;
         flex-direction: column;
+        align-items: flex-start;
         gap: 30px;
+    }
+    .user-flex-title{
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 32px;
     }
     .user-flex-2{
         width: 100%;
@@ -626,6 +649,16 @@ line-height: 24px;
     }
     .tool-text{
         width: 100%;
+    }
+    .tool-title{
+        font-weight: 700;
+        font-size: 29px;
+        line-height: 40px;
+    }
+    .tool-para{
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 24px;
     }
     .tool-logo{
         width: 100%;
@@ -645,6 +678,7 @@ line-height: 24px;
         width: 100%;
         flex-direction: column;
         gap: 50px;
+        padding: 0px;
     }
     .app-text{
         width: 100%;
@@ -653,8 +687,15 @@ line-height: 24px;
         width: 100%;
     }
     .app-title{
-        font-size: 46px;
         width: 100%;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .app-para{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
     }
     .footer{
         height: 100%;
