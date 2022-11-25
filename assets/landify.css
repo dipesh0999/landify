@@ -31,7 +31,8 @@
     display: none;
 }
 .nav{
-    width: 1300px;
+    width: 1440px;
+    padding: 0px 60px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -226,6 +227,7 @@ line-height: 24px;
     background-color: white;
     padding: 30px;
     border-radius: 5px;
+    margin-bottom: 50px;
 }
 .strapi-review{
     width: 400px;
@@ -582,10 +584,11 @@ line-height: 24px;
     }
     .airbnb-review{
         width: 100%;
-        margin-bottom: 0px;
+        margin-bottom: 20px;
     }
     .hubspot-review{
         width: 100%;
+        margin-bottom: 20px;
     }
     .strapi-review{
         width: 100%;
