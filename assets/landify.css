@@ -4,18 +4,25 @@
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
 }
+.main-background{
+    background: url("desktop/Background.png") no-repeat;
+    background-size: cover;
+    margin-bottom: 50px;
+}
 .hero{
-    width: 1519px;
+    width: 100%;
     position: relative;
 }
 .background{
     width: 100%;
 }
 .desktop-navigation{
-    position: absolute;
-    z-index: 1;
-    top: 30px;
-    left: 120px;
+    width: 1440px;
+    max-width: 100%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px;
 }
 .mobile-navigation{
     display: none;
@@ -56,12 +63,13 @@ a{
 .bars{
     display: none;
 }
-.contain{
-    position: absolute;
-    z-index: 2;
+.hero-contain{
+    width: 1440px;
+    max-width: 100%;
     display: flex;
-    bottom: 36px;
-    padding-left: 105px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
 }
 .contain-text{
     width: 648px;
@@ -105,29 +113,28 @@ a{
     padding: 20px;
     border-radius: 10px;
 }
+#partners{
+    margin-bottom: 150px;
+}
 .companies{
-    width: 1000px;
+    width: 1440px;
     margin-left: auto;
     margin-right: auto;
+    padding: 16px 112px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
 }
-#partners{
-    margin-bottom: 150px;
-}
-#features{
-    width: 1200px;
+.features{
+    width: 1440px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 100px;
 }
 .ft-text{
+    padding: 0px 310px;
     text-align: center;
-    width: 800px;
-    margin-left: auto;
-    margin-right: auto;
     margin-bottom: 80px;
 }
 .ft-title{
@@ -172,18 +179,19 @@ line-height: 24px;
     padding-top: 70px;
     padding-bottom: 70px;
 }
-.review-logo{
-    width: 1300px;
+.review-2{
+    width: 1440px;
     margin-left: auto;
     margin-right: auto;
+}
+.review-logo{
+    padding-left: 100px;
 }
 .review-logo-2{
     display: none;
 }
 .review-text{
-    width: 1095px;
-    margin-left: auto;
-    margin-right: auto;
+    padding-left: 200px;
     margin-top: -64px;
 }
 .review-para{
@@ -198,7 +206,7 @@ line-height: 24px;
     line-height: 60px;
 }
 .desktop-companies-review{
-    width: 1260px;
+    padding-right: 200px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -250,10 +258,11 @@ line-height: 24px;
     line-height: 20px;
 }
 #users{
-    width: 1200px;
+    width: 1440px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 150px;
+    padding: 0px 100px;
 }
 .user{
     display: flex;
@@ -302,12 +311,14 @@ line-height: 24px;
     line-height: 45px;
 }
 #tools{
-    width: 1200px;
+    width: 1440px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 100px;
+    padding: 0px 100px;
 }
 .tool{
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -333,12 +344,13 @@ line-height: 24px;
     position: relative;
 }
 .app{
+    width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
 }
 .app-text{
     width: 582px;
@@ -446,9 +458,6 @@ line-height: 24px;
 }
 
 @media screen and (max-width: 499px) {
-    html{
-        width: 100%;
-    }
     .hero{
         width: 100%;
     }
@@ -488,14 +497,12 @@ line-height: 24px;
     .bars{
         display: block;
     }
-    .contain{
+    .hero-contain{
         width: 100%;
         flex-direction: column;
         justify-content: space-between;
         padding-left: 0px;
         padding: 10px;
-        bottom: 0px;
-        top: 20px;
     }
     .contain-text{
         width: 100%;
@@ -505,11 +512,10 @@ line-height: 24px;
         font-size: 37px;
         line-height: 54px;
     }
-    .contain-para{
-        font-size: 25px;
-    }
+    
     .contain-button{
         width: 100%;
+        margin-bottom: 80px;
     }
     .contain-img{
         width: 100%;
@@ -523,7 +529,7 @@ line-height: 24px;
     .company{
         width: 100px;
     }
-    #features{
+    .features{
         width: 100%;
     }
     .features-flex{
@@ -541,14 +547,18 @@ line-height: 24px;
         margin-right: auto;
     }
     .review{
+        width: 100%;
         padding: 20px;
         height: 100%;
+    }
+    .review-2{
+        width: 100%;
     }
     .review-text{
         width: 100%;
         margin-top: -55px;
-        margin-left: 10px;
         margin-bottom: 100px;
+        padding-left: 10px;
     }
     .review-title{
         width: 100%;
@@ -657,7 +667,7 @@ line-height: 24px;
         align-items: flex-start;
     }
     .footer-nav{
-        margin-bottom: 10px;
+        margin-bottom: 20px;
     }
     .download-app{
         align-items: flex-start;
