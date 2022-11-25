@@ -660,6 +660,7 @@ line-height: 24px;
     }
     .footer-contain{
         width: 100%;
+        padding: 0px 20px;
     }
     .ft-nav-menu{
         gap: 10px;
