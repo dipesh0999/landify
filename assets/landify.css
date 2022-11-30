@@ -498,6 +498,9 @@ line-height: 24px;
     .bars{
         display: block;
     }
+    .bar{
+        color: black;
+    }
     .hero-contain{
         width: 100%;
         flex-direction: column;
